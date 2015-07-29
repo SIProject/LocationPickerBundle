@@ -1,0 +1,9 @@
+{
+    "name": "sip/location-picker-bundle",
+    "type": "sip-bundle",
+    "description": "UI widget for searching and selecting a location (jQuery and Google Maps).",
+    "autoload": {
+        "psr-0": { "SIP\\LocationPickerBundle": "" }
+    },
+    "target-dir": "SIP/LocationPickerBundle"
+}

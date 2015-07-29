@@ -1,0 +1,5 @@
+services:
+    sip.form.jquery.type.locationpicker:
+        class: SIP\LocationPickerBundle\Form\Type\LocationPickerType
+        tags:
+            - { name: form.type, alias: location_picker }       

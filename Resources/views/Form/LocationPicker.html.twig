@@ -1,0 +1,11 @@
+{% block location_picker_widget %}
+    {% spaceless %}
+        {{ block('form_widget_simple') }}
+
+        <script type="text/javascript" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <script src="{{ asset('bundles/siplocationpicker/js/jquery.locationpicker.js') }}"></script>
+        <script type="text/javascript">
+            $('#{{ id }}').locationPicker();
+        </script>            
+    {% endspaceless %}
+{% endblock %}
